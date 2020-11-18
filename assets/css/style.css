@@ -18,7 +18,7 @@ nav {
 }
 
 #sobrenome {
-    color: rgb(124, 49, 49);
+    color: rgb(136, 72, 20);
 }
 
 nav > a {
@@ -58,7 +58,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("../img/header.png");
+    background-image: url("../img/header2.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -112,10 +112,20 @@ header a {
     border-radius: 3px;
 }
 
+.botao:hover {
+    background-color: #06064d;
+}
+
 #sobre .botao {
     background-color: #f1f1f1;
     color: #1c1c1c;
+    transition: 0.2s;
 
+}
+
+#sobre .botao:hover {
+    background-color: rgb(34, 32, 32);
+    color: white;
 }
 
 #servicos {
@@ -170,7 +180,7 @@ header a {
 }
 
 #contato img {
-    width: 50px;
+    width: 70px;
 }
 
 footer {
@@ -178,15 +188,16 @@ footer {
     padding: 10px;
     background-color: #191970;
     color: #ffffff;
-
 }
 
 footer a {
     text-decoration: none;
-    color: #000fff;
-
+    color: #a4e796;
 }
 
+footer p {
+    margin-top: 50px;
+}
 
 @media screen and (min-width: 768px) {
 
@@ -200,6 +211,7 @@ footer a {
     
         background-color: #0c0c44;
         padding-top: 10px;
+        transition: 0.3s linear;
     }
     
     nav ul {
@@ -227,7 +239,11 @@ footer a {
     }
 
     #sobre p {
-        margin-bottom: 30px;
+        margin-bottom: 50px;
+    }
+
+    #sobre h2 {
+        margin: 0;
     }
 
     /*Serviços */
