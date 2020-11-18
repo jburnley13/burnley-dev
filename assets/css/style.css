@@ -138,6 +138,7 @@ header a {
 
 #servicos img {
     width: 190px;
+    height: 190px;
 }
 
 #servicos div {
@@ -172,6 +173,7 @@ header a {
     align-items: center;
     text-align: center;
     padding: 20px;
+    
 
 }
 
@@ -180,7 +182,7 @@ header a {
 }
 
 #contato img {
-    width: 70px;
+    width: 60px;
 }
 
 footer {
@@ -207,6 +209,14 @@ footer p {
         justify-content: space-around;
     }
 
+    .navFixa {
+        opacity: 30%;
+        width: 100%;
+        position: fixed;
+        background-color: rgba(2, 3, 8, 0.3);
+
+    }
+
     nav ul li a:hover {
     
         background-color: #0c0c44;
@@ -223,8 +233,8 @@ footer p {
     /* Cabecalho */
 
     header {
-        height: 800px;
-        height: 80vh;
+        height: 830px;
+        height: 83vh;
         justify-content: center;
 
     }
@@ -235,7 +245,7 @@ footer p {
         height: 250px;
         height: 30vh;
         justify-content: center;
-        min-height: 250px;
+        min-height: 300px;
     }
 
     #sobre p {
@@ -252,10 +262,12 @@ footer p {
         flex-direction: row;
         flex-wrap: wrap;
         align-items: flex-start;
-        max-width: 1000px;
+        height: 400px;
+        max-width: 1500px;
         margin: 0 auto;
 
     }
+
 
     #sericos h2 {
         text-align: center;
@@ -290,11 +302,17 @@ footer p {
     #contato {
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
-        max-width: 500px;
+        justify-content: space-evenly;
+        max-width: 740px;
         margin: 0 auto;
 
     }
+
+    #contato div {
+        margin-left: 75px;
+    }
+
+
 
     #contato h2, #contato p {
         width: 100%;
